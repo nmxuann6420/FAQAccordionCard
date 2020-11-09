@@ -18,14 +18,14 @@
     }
 
     .faq-card__background {
-        content: url(/faq-accordion-card-main/images/bg-pattern-mobile.svg);
+        content: url(/images/bg-pattern-mobile.svg);
         top: 10px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .faq-card__picuture {
-        content: url(/faq-accordion-card-main/images/illustration-woman-online-mobile.svg);
+        content: url(/images/illustration-woman-online-mobile.svg);
         top: -108px;
         left: 50%;
         transform: translateX(-50%);   
