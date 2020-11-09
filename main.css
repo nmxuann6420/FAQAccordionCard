@@ -1,0 +1,126 @@
+/* html {
+    height: 100%;
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat center center;
+    position: relative;
+} */
+
+/* body {
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat center center;
+    height: 100vh;
+} */
+
+.container {
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat center center;
+    height: 100vh;  
+}
+
+.faq-card {
+    width: 1040px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    display: flex;
+}
+
+.faq-card__image {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.faq-card__background {
+    position: absolute;
+    top: -300px;
+    right: 24%;
+}
+
+.faq-card__picuture {
+    position: absolute;
+    top: 50%;
+    right: 24%;
+    transform: translateY(-50%);
+}
+
+
+.faq-card__box {
+    position: fixed;
+    top: 40%;
+    left: -90px;
+}
+
+
+.faq-card__faq {
+    width: 50%;
+    overflow-y: auto;
+}
+
+.faq-card__heading {
+    margin-top: 60px;
+}
+
+.faq-card__heading h1{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.faq-card__content {
+    display: inline-block;
+}
+
+.faq-card__question-answer {
+    border-bottom: 1px solid rgb(231, 231, 233);
+    display: flex;
+    position: relative;
+}
+
+.faq-card__question-answer-box {
+    width: 360px;
+}
+
+.faq-card__question {
+    font-size: var(--small-size-text);
+    color: var(--very-dark-grayish-blue);
+    line-height: 50px;
+}
+
+.faq-car__question--bold {
+    font-weight: bold;
+    color: var(--dark-desaturated-blue-color);
+}
+
+.faq-card__answer {
+    margin: 0 0 20px 0;
+    font-size: var(--small-size-text);
+    color: var(--very-dark-grayish-blue);
+    padding-right: 40px;
+    display: none;
+}
+
+.faq-card__answer-click {
+    display: block;
+}
+
+.faq-card__arrow {
+    position: absolute;
+    height: 7px;
+    padding-right: 20px;
+    top: 20px;
+    right: 0;
+}
+
+.faq-card__arrow--up {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+

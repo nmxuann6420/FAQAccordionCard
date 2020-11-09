@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="faq-card">
+            <div class="faq-card__image">
+                <img src="/faq-accordion-card-main/images/bg-pattern-desktop.svg" alt="" class="faq-card__background">
+                <img src="/faq-accordion-card-main/images/illustration-woman-online-desktop.svg" alt=""
+                    class="faq-card__picuture">
+                <img src="/faq-accordion-card-main/images/illustration-box-desktop.svg" alt="" class="faq-card__box">
+            </div>
+            <div class="faq-card__faq">
+                <div class="faq-card__heading">
+                    <h1 class="faq-card__heading-faq">FAQ</h1>
+                </div>
+                <div class="faq-card__content">
+                    <div class="faq-card__question-answer">
+                        <div class="faq-card__question-answer-box">
+                            <span class="faq-card__question">
+                                How many team members can I invite?
+                            </span>
+                            <p class="faq-card__answer">
+                                You can invite up to 2 additional users on the Free plan. There is no limit on
+                                team members for the Premium plan.
+                            </p>
+                        </div>
+                        <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="" class="faq-card__arrow"
+                            id="faq-card__arrow">
+                    </div>
+                    <div class="faq-card__question-answer">
+                        <div class="faq-card__question-answer-box">
+                            <span class="faq-card__question">
+                                What is the maximum file upload size?
+                            </span>
+                            <p class="faq-card__answer">
+                                No more than 2GB. All files in your account must fit your allotted storage space.
+                            </p>
+                        </div>
+                        <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="" class="faq-card__arrow"
+                            id="faq-card__arrow">
+                    </div>
+                    <div class="faq-card__question-answer">
+                        <div class="faq-card__question-answer-box">
+                            <span class="faq-card__question">
+                                How do I reset my password?
+                            </span>
+                            <p class="faq-card__answer">
+                                Click “Forgot password” from the login page or “Change password” from your profile page.
+                                A reset link will be emailed to you.
+                            </p>
+                        </div>
+                        <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="" class="faq-card__arrow"
+                            id="faq-card__arrow">
+                    </div>
+                    <div class="faq-card__question-answer">
+                        <div class="faq-card__question-answer-box">
+                            <span class="faq-card__question">
+                                Can I cancel my subscription?
+                            </span>
+                            <p class="faq-card__answer">
+                                Yes! Send us a message and we’ll process your request no questions asked.
+                            </p>
+                        </div>
+                        <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="" class="faq-card__arrow"
+                            id="faq-card__arrow">
+                    </div>
+                    <div class="faq-card__question-answer">
+                        <div class="faq-card__question-answer-box">
+                            <span class="faq-card__question">
+                                Do you provide additional support?
+                            </span>
+                            <p class="faq-card__answer">
+                                Chat and email support is available 24/7. Phone lines are open during normal business
+                                hours.
+                            </p>
+                        </div>
+                        <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="" class="faq-card__arrow"
+                            id="faq-card__arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+        getAnswer();
+    </script>
+</body>
+
+</html>

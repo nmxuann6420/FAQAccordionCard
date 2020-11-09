@@ -1,0 +1,17 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+:root {
+    --dark-desaturated-blue-color: rgb(29, 30, 53);
+    --soft-red-color: hsl(14, 88%, 65%);
+    --small-size-text: 14px;
+    --very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --dark-grayish-blue: hsl(240, 6%, 50%);
+}
