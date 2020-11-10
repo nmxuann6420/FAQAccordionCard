@@ -1,17 +1,7 @@
-/* html {
-    height: 100%;
-    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat center center;
-    position: relative;
-} */
-
-/* body {
-    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat center center;
-    height: 100vh;
-} */
-
-.container {
-    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat center center;
-    height: 100vh;  
+body {
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-attachment: fixed;
+    min-height: 100vh;  
 }
 
 .faq-card {
@@ -77,6 +67,11 @@
     border-bottom: 1px solid rgb(231, 231, 233);
     display: flex;
     position: relative;
+    text-decoration: none;    
+}
+
+.faq-card__question-answer:hover .faq-card__question {
+    color: #F47B56;
 }
 
 .faq-card__question-answer-box {
